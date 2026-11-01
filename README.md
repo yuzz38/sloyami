@@ -1,3 +1,35 @@
+# Слоями — лендинг кондитерской Дарии Тарт (Иркутск)
+
+## Структура
+
+```
+index.html          — страница (разметка + скрипты, SEO, schema.org)
+css/style.css       — все стили
+img/                — фото, логотипы, иконки, og-image.jpg (превью для соцсетей)
+favicon.ico         — иконка вкладки
+site.webmanifest    — иконки для телефона
+robots.txt          — правила для поисковиков и ИИ-ботов
+sitemap.xml         — карта сайта с картинками
+llms.txt            — краткая справка о кондитерской для ChatGPT, Claude, Perplexity, Алисы и т.п.
+```
+
+## SEO и GEO
+
+- `<title>`, description, keywords, canonical, robots, гео-метки (Иркутск, RU-IRK).
+- Open Graph и Twitter Card: красивое превью ссылки в Telegram, VK, WhatsApp.
+- schema.org (JSON-LD): `Bakery/LocalBusiness` (город, гео, соцсети, каталог с ценами), `FAQPage`, `WebSite`, `WebPage`.
+- `llms.txt` и разрешения для ИИ-ботов в `robots.txt`: нейросети будут корректно рассказывать о кондитерской и её ценах.
+
+**При смене адреса сайта** (свой домен) замените `https://yuzz38.github.io/` в `index.html`, `robots.txt`, `sitemap.xml`, `llms.txt`.
+**При смене цен** обновите их в `index.html` (текст + JSON-LD в `<head>`) и в `llms.txt`.
+
+### После публикации
+1. Яндекс Вебмастер (webmaster.yandex.ru): добавить сайт, подтвердить, отправить `sitemap.xml`. В «Регион сайта» указать Иркутск.
+2. Google Search Console: то же самое.
+3. Яндекс Бизнес и 2ГИС: создать карточку кондитерской со ссылкой на сайт — это главный источник «пассивных» клиентов из карт и ответов Алисы.
+4. Ссылку на сайт поставить в шапку Instagram, VK и описание Telegram-канала.
+5. Проверка разметки: validator.schema.org и webmaster.yandex.ru/tools/microtest.
+
 ## Авторские права и условия использования
 
 © 2026, Полунин Лев. Все права защищены.

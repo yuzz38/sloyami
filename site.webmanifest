@@ -1,0 +1,14 @@
+{
+  "name": "Слоями — кондитерская Дарии Тарт",
+  "short_name": "Слоями",
+  "description": "Торты на заказ в Иркутске: бенто, макси-бенто, стандартные и многоярусные. Макарон, корпусные пирожные, капкейки.",
+  "lang": "ru",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#FFFBF6",
+  "theme_color": "#FFFBF6",
+  "icons": [
+    { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
